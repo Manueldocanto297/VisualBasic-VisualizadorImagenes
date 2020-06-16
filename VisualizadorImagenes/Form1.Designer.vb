@@ -51,7 +51,7 @@ Partial Class Form1
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(534, 311)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(533, 456)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'PictureBox1
@@ -61,14 +61,14 @@ Partial Class Form1
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(528, 273)
+        Me.PictureBox1.Size = New System.Drawing.Size(527, 404)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(3, 282)
+        Me.CheckBox1.Location = New System.Drawing.Point(3, 413)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(60, 17)
         Me.CheckBox1.TabIndex = 1
@@ -83,9 +83,9 @@ Partial Class Form1
         Me.FlowLayoutPanel1.Controls.Add(Me.closeButton)
         Me.FlowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.FlowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(83, 282)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(82, 413)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(448, 26)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(448, 40)
         Me.FlowLayoutPanel1.TabIndex = 2
         '
         'showButton
@@ -139,7 +139,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(534, 311)
+        Me.ClientSize = New System.Drawing.Size(533, 456)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "Form1"
         Me.Text = "Visualizador de imágenes"
